@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+	
+	Dustin de Souza 	--	Designer 	-- 	@dustindesouza
+	Jessica Witt 			--	Designer 	-- 	@jessicatwitt
+    Jordan Garcia 		--	Developer	--	@whoismrgarcia
+
+# THANKS
+
+    Dem beats & hot slooots that keep us going.
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr, bootstrap, Magnific Popup

@@ -1,1 +1,302 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>FontSpotting</title>
+        <meta name="description" content="Flash cards for typeface recognition. ">
+		<meta name="keywords" content="type, typeface, typography, font, fonts, x-height, cap-height, bowl, lowercase, uppercase, font family, foundry, kerning, leading, oblique, monospaced, italic, opentype, point size, roman, type foundry, type size, type family, font spot, fontspot, fontspotting, typographic, cards, font detection, font game, typographic game, typography game, type game, font flash cards, typo flash cards, typographic flash cards, type cards, font cards">
+		<meta name="author" content="Dustin de Souza, Jessica Witt, Jordan Garcia">
+		<link rel="icon" href="favicon.ico">
+		<link rel="apple-touch-icon" href="apple-touch-icon-144x144-precomposed.png"/>
+        <meta name="viewport" content="width=device-width">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="FontSpotting">
+		<meta property="og:url" content="http://www.fontspotting.org">
+		 <meta property="og:image" content="http://fontspotting.org/img/fs3.png">
+		<meta property="og:site_name" content="FontSpotting">
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Dosis:300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+       <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">       
+		<link rel="stylesheet" href="css/magnific-popup.min.css">		
+		<link rel="stylesheet" href="css/carouFredSel.min.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body id="home" data-spy="scroll" data-target=".navbar">
+		<div id="site-container">
+			<!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+			<![endif]-->
+			<header>
+				<div class="navbar navbar-inverse">
+					<div class="navbar-inner">
+						<div class="container">
+							<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</a>
+							<a href="#intro"><img class="mobilelogo" src="img/menu_logo.svg"></a>
+							 <div class="nav-collapse collapse">
+								<ul class="nav">
+									<li class="about">
+										<a href="#about"><span>about</span></a>
+									</li>
+									<li class="instructions">
+										<a href="#instructions"><span>instructions</span></a>
+									</li>
+									<li class="download">
+										<a href="#download"><span>download</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<div class="row-fluid">
+						<div class="span12">
+							<div class="container">
+								<div class="span2">
+									<a href="#intro"><img class="smalllogo" src="img/menu_logo.svg"></a>
+								</div>
+								<div class="span3 offset6">
+									<nav class="intronav">
+										<ul>
+											<li class="about">
+												<a href="#about"><span>about</span></a>
+											</li>
+											<li class="instructions">
+												<a href="#instructions"><span>instructions</span></a>
+											</li>
+											<li class="download">
+												<a href="#download"><span>download</span></a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<section id="intro" class="nonmobile">
+				<div class="container-fluid">
+					<div class="row-fluid">
+						<div class="span12">
+							<div class="container">
+								<div class="row">
+									<div class="span3">
+										<hgroup>
+											<img class="logo" src="img/logo.svg" alt="fontspotting" title="fontspotting">
+											<h3>A flash card game <br /> to aid with typeface recognition</h3>
+										</hgroup>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="about">
+				<div class="container-fluid">
+					<div class="row-fluid">
+						<div class="span12">
+							<div class="container">
+								<div class="row">
+									<div class="span12">
+											<hr class="topline" />
+									</div>
+								</div>
+								<div class="row">
+									<div class="span4 block">
+										<hgroup>
+											<object type="image/svg+xml" data="img/about_header.svg"></object>
+											<p>Following our education and into our careers, we couldn’t simply look at typefaces and put names to all of them. So we made a flash card game for ourselves and thought it was</br> something worth sharing.</p>						
+											<p class="creators">Dustin de Souza & Jessica Witt</p>
+											<img class="leaf" src="img/about_leaf.svg">
+										</hgroup>
+									</div>
+									<div class="span8 block">
+										<div class="cards">
+											<object id="redcard" class="redcard cardshidden" data="img/red_card.svg" type="image/svg+xml"></object>
+											<object id="navycard" class="navycard cardshidden" data="img/navy_card.svg" type="image/svg+xml"></object>
+											<object id="backcard" class="backcard cardshidden" data="img/back_card.svg" type="image/svg+xml"></object>
+											<div class="them">
+												<img class="dash" src="img/about_dashes.svg" />
+												<p>That's them</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="span12">
+											<hr class="bottomline" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="instructions">
+				<div class="galleryholder">
+					<div class="latest_work_image_slider_holder list_carousel slider_holder" style="position:relative;">
+                   		<a id="prev" class="prev" href="#" style="left:2%;top:50%;position:absolute;z-index:5;"><img src="img/arrow_left.svg" /></a>
+						<a id="next" class="next" href="#" style="right:2%;top:50%;position:absolute;z-index:5;"><img src="img/arrow_right.svg" /></a>
+						<ul id="gallery">
+							<li>	
+								<a class="enlarge" href="img/fs1.png" ><img src="img/fs1_thumb.jpg"/></a>
+							</li>
+							<li>
+								<a class="enlarge" href="img/fs2.png" ><img src="img/fs2_thumb.jpg"/></a>					
+							</li>
+							<li>
+								<a class="enlarge" href="img/fs3.png" ><img src="img/fs4_thumb.jpg"/></a>						
+							</li>
+							<li>
+								 <a class="enlarge" href="img/fs6.png" ><img src="img/fs6_thumb.jpg"/></a>						
+							</li>
+							<li>
+								 <a class="enlarge" href="img/fs3.png" ><img src="img/fs3_thumb.jpg" /></a>					
+							</li>
+							<li>
+								 <a class="enlarge" href="img/fs5.png" ><img src="img/fs5_thumb.jpg" /></a>					
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<div class="row-fluid">
+						<div class="span12">
+							<div class="row-fluid">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="span12">
+                                                    <hr />
+                                            </div>
+                                        </div>
+                                        <div class="row bottomspace">
+                                                <div class="span2 offset4">
+                                                    <img class="how" src="img/how.svg" />
+                                                </div>
+                                                <div class="span4">
+                                                    <p>Well, you could download the onscreen version below. Or you could grab the print ready version and get it done on 350gsm artboard with round corners like we did to be able to properly test yourself.</p>
+                                                </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="span12">
+                                                <hr />
+                                            </div>
+                                        </div>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="download">
+				<div class="container-fluid">
+					<div class="row-fluid">
+						<div class="span12">
+							<div class="container">
+								<div class="row">
+									<div class="span4">
+										<hgroup>
+											<img src="img/money.svg">
+											<p>We don’t want you to part with your hard earned cheese. We would however appreciate your help in spreading the existence of our little project by ‘paying with a tweet’ to download the e-book.</p>
+											<p>If you are however feeling uncharitable or simply in a rush, feel free to download without 'paying', we’re happy to share.</p>
+											<img class="leaf" src="img/white_leaf.svg" >
+										</hgroup>
+									</div>
+									<div class="span4 twocol">
+										<object id="printeddownload" class="printeddownload" data="img/print.svg" type="image/svg+xml"></object>
+										<div class="tweet">
+											<a href="https://www.paywithatweet.com/pay/?id=0ed8e366599c717eb7944f03789072db" target="_blank"><img src="img/pay_tweet.svg" /></a>
+											<p>or</p>
+											<a href="files/Fontspotting_Print.pdf" download="Fontspotting_Print.pdf"><img class="download" src="img/download.svg" /></a>
+										</div>
+									</div>
+									<div class="span4 twocol">
+									 	<object id="printedscreen" class="printedscreen" data="img/screen.svg" type="image/svg+xml"></object>
+										<div class="tweet">
+											<a href="https://www.paywithatweet.com/pay/?id=bf4a23e13c5e3a90133a330a9fdb40cd" target="_blank"><img src="img/pay_tweet.svg" /></a>
+											<p>or</p>
+											<a href="files/Fontspotting_Screen.pdf" download="Fontspotting_Screen.pdf"><img class="download" src="img/download.svg" /></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<div class="container-fluid">
+					<div class="row-fluid">
+						<div class="span12">
+							<div class="container">
+								<div class="row">
+									<div class="span1">
+										<a href="#intro">
+											<img class="footerlogo" src="img/footer_logo.svg" />
+										</a>
+									</div>
+									<div class="span2">
+										<ul class="footernav">
+											<li class="about">
+												<a href="#about"><span>about</span></a>
+											</li>
+											<li class="instructions">
+												<a href="#instructions"><span>instructions</span></a>
+											</li>
+											<li class="download">
+												<a href="#download"><span>download</span></a>
+											</li>
+										</ul>
+									</div>
+									<div class="span3">
+										<p>Disclaimers: The information within this book should by no means be considered an all encompassing guide to typography. The brief history of each typeface is just that, a brief history gleamed from web search results. If any information is found to be incorrect, please let us know.</p>
 
+										<p>Site designed by Dustin de Souza </br>& developed by Jordan Garcia</p>
+									</div>
+									<div class="span4">
+										<p>All fonts used with permission and remain the property of their respective type foundries/designers/owners. This book is not for sale and would not be possible without the support of Erik Spiekermann, Eric Olson, Jos Buivenga, Allan Haley, fontshop.com, Elsner + Flake, Process Type Foundry, exljbris Font Foundry, Monotype, Hoefler & Frere-Jones, House Industries, Scangraphic Prepress Technology, Linotype & The Font Bureau.</p>
+									</div>
+									<div class="span2 twitter">
+										<img src="img/twitter_logo.svg" />
+										<p>	<a href="http://twitter.com/fontspottingorg">@fontspottingorg</a>
+											<a href="http://twitter.com/dustindesouza">@dustindesouza</a>
+											<a href="http://twitter.com/jessicatwitt">@jessicatwitt</a>
+											<a href="http://twitter.com/whoismrgarcia">@whoismrgarcia</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		  ga('create', 'UA-42460197-1', 'fontspotting.org');
+		  ga('send', 'pageview');
+		</script>
+    </body>
+</html>
