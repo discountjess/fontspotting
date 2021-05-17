@@ -36,6 +36,7 @@
 		
 		fullScreenSlide();
 
+		/*
 		$('.nav a').click(function(){
 			$.scrollTo( this.hash, 400, { easing:'swing' });
 			return false;
@@ -50,6 +51,7 @@
 			$.scrollTo( this.hash, 400, { easing:'swing' });
 			return false;
 		});
+		*/
 	
 	$('.enlarge').magnificPopup({
 		type: 'image',
